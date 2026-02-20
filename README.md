@@ -56,3 +56,19 @@ The system controls permissions, validates the subscription, saves the data, and
 - Status changes
 
 ---
+
+# 2. UML Use case diagram
+
+**~ Ulith ~**
+
+![image.png](attachment:c2d796b9-271a-4dec-97eb-48e0b36ddc27:image.png)
+
+## Principal use cases description
+
+| Use Case | Actor | Description |
+| --- | --- | --- |
+| Create Inspection | Company Administrator | The administrator creates a new inspection based on a previously defined inspection type, the system generates a new inspection record with initial status |
+| Assign Inspection | Company Administrator | The administrator assigns the inspection to a specific technician, the system updates the inspection status to Assigned and links it to the selected technician |
+| Execute Inspection | Technician | The technician opens the assigned inspection and performs it in the field by answering the form according to the defined structure, the status changes to In Progress |
+| Register Results | Technician | The technician submits the completed form, including answers, notes, and evidence, the system stores the results and updates the status to Submitted |
+| Close Inspection | Company Administrator | After reviewing the submitted results, the administrator closes the inspection, the system marks it as closed, and the record becomes final and no longer editable |
