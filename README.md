@@ -61,7 +61,7 @@ The system controls permissions, validates the subscription, saves the data, and
 
 **~ Ulith ~**
 
-![image.png](attachment:c2d796b9-271a-4dec-97eb-48e0b36ddc27:image.png)
+![UML Diagram](uml.png)
 
 ## Principal use cases description
 
